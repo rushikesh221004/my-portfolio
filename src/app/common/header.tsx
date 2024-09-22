@@ -11,13 +11,13 @@ export default function Header() {
   const [isClick, setIsClick] = useState(false)
   return (
     <>
-      <div className="w-full px-3 py-4 lg:flex max-w-[1350px] 2xl:py-9 lg:py-6 lg:px-5 mx-auto lg:bg-transparent lg:items-center bg-[#252439]">
+      <div className="w-full relative px-3 py-4 lg:flex max-w-[1350px] 2xl:py-9 lg:py-6 lg:px-5 mx-auto lg:bg-transparent lg:items-center bg-[#252439]">
         <div className="w-full flex justify-between items-center">
           <Image src={logo} alt="logo" className="w-24 lg:w-36 2xl:w-44" />
           {isClick === false && <CiMenuFries className="text-2xl font-extrabold lg:hidden" onClick={() => setIsClick(true)} />}
           {isClick && <MdRestaurantMenu className="text-2xl font-extrabold lg:hidden" onClick={() => setIsClick(false)} />}
         </div>
-        {isClick && <div className="w-full lg:hidden flex py-5 px-4 flex-col gap-2">
+        {isClick && <div className="w-full absolute left-0 lg:hidden flex py-5 bg-[#252439] px-4 flex-col gap-2">
           <p className="text-lg">Home</p>
           <p className="text-lg">About</p>
           <p className="text-lg">Portfolio</p>
