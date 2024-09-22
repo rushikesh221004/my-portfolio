@@ -32,13 +32,6 @@ export default function Hero() {
                             </div>
                         </div>
                     </div>
-                    <div className="relative flex items-center justify-center">
-                        <div className="absolute h-32 w-32 bg-yellow-300 rounded-full flex items-center justify-center">
-                            <h2 className="text-black text-center text-xs p-2">
-                                Creative Web Developer From Khamgaon
-                            </h2>
-                        </div>
-                    </div>
 
 
                 </div>
