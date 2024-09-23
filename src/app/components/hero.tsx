@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Button } from "@nextui-org/react";
 import myImg from "../assets/images/myImg.jpg"
 import Image from "next/image";
@@ -7,7 +8,7 @@ import TrophySvg from "../assets/svg/trophy.svg";
 
 export default function Hero() {
     return (
-        <div className="w-full px-6 justify-center max-w-[1350px] mx-auto lg:flex-row-reverse lg:justify-between lg:overflow-x-hidden xl:overflow-x-visible h-full flex flex-col gap-8 items-center">
+        <div className="w-full px-6 justify-center max-w-[1350px] mx-auto lg:flex-row-reverse lg:justify-between lg:overflow-x-hidden 2xl:overflow-x-visible h-full flex flex-col gap-8 items-center">
             <div className="lg:relative lg:flex lg:flex-row-reverse lg:w-[480px] 2xl:w-[630px]">
                 <div className="hidden lg:block">
                     <div className="w-28 rounded-xl top-[-12%] h-28 flex xl:top-[-5%] items-center justify-center absolute right-[-8%] bg-white overflow-hidden py-4 px-4">
