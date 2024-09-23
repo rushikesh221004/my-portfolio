@@ -22,8 +22,8 @@ export default function excellence() {
     ]
     return (
         <div className="w-full px-5 p-1 md:grid md:grid-cols-2 max-w-[1400px] mx-auto xl:my-32 xl:grid-cols-3 my-24">
-            {excellenceData.map((item, index) => <div key={index} className={`w-full md:w-[90%] xl:justify-self-center mb-10 ${index==1&&"md:justify-self-end xl:justify-self-start"}`}>
-                <div className="flex w-full justify-between border-b-1 border-gray-300 py-7 mb-7">
+            {excellenceData.map((item, index) => <div key={index} className={`w-full md:w-[90%] group xl:justify-self-center mb-10 ${index==1&&"md:justify-self-end xl:justify-self-start"}`}>
+                <div className="flex w-full transition duration-500 ease-in-out justify-between border-b-1 group-hover:border-b-1 group-hover:border-white border-gray-600 py-7 mb-7">
                     <div>
                         <p className="text-orange-600 font-semibold text-md">{item.numFor}</p>
                         <h2 className="text-xl font-bold 2xl:text-3xl">{item.exce}</h2>
