@@ -22,7 +22,7 @@ export default function iAmDeveloper() {
                     <div className="w-24 rounded-xl bottom-[5%] 2xl:bottom-[-40%] xl:bottom-[-5%] h-24 flex items-center justify-center absolute left-[62%] bg-[#007095] overflow-hidden">
                         <Image src={graphicSymbol} alt="graphicSymbol" className="absolute w-14 text-white" />
                     </div>
-                    <div className="rounded-xl bottom-[1%] absolute 2xl:bottom-[-60%] xl:bottom-[-10%] 2xl:left-[-4%] xl:left-[14%] left-[3%]">
+                    <div className="rounded-xl bottom-[1%] absolute 2xl:bottom-[-60%] xl:bottom-[-10%] 2xl:left-[-20%] xl:left-[14%] left-[3%]">
                         <div className="w-20 rounded-xl top-[18%] h-20 flex items-center justify-center absolute left-[-15%] bg-[#3B383F] overflow-hidden">
                             <Image src={colorBond} alt="road" className="absolute w-10 text-white" />
                         </div>
