@@ -19,7 +19,7 @@ export default function iAmDeveloper() {
                     <div className="w-16 rounded-xl top-[15%] h-16 flex 2xl:left-[-5%] 2xl:top-[25%] items-center justify-center absolute xl:left-[13%] left-[5%] bg-[#FB503B] overflow-hidden">
                         <Image src={road} alt="road" className="absolute w-10 text-white" />
                     </div>
-                    <div className="w-24 rounded-xl bottom-[5%] 2xl:bottom-[-40%] xl:bottom-[-5%] h-24 flex items-center justify-center absolute left-[62%] bg-[#007095] overflow-hidden">
+                    <div className="w-24 rounded-xl bottom-[5%] 2xl:bottom-[-40%] 2xl:left-[50%] xl:bottom-[-5%] h-24 flex items-center justify-center absolute left-[62%] bg-[#007095] overflow-hidden">
                         <Image src={graphicSymbol} alt="graphicSymbol" className="absolute w-14 text-white" />
                     </div>
                     <div className="rounded-xl bottom-[1%] absolute 2xl:bottom-[-60%] xl:bottom-[-10%] 2xl:left-[-20%] xl:left-[14%] left-[3%]">
