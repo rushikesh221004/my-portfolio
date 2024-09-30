@@ -19,8 +19,8 @@ export default function projects() {
 
     ]
     return (
-        <div className="w-full pl-4">
-            <div className="flex flex-col gap-12">
+        <div className="w-full mb-20">
+            <div className="flex lg:flex-row flex-col px-4 lg:w-full lg:justify-center gap-12 lg:gap-32">
                 {projects.map((data, index) => (
                     <div className="flex gap-5" key={index}>
                         <div className="flex">
