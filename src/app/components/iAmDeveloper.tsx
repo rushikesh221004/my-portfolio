@@ -9,7 +9,7 @@ import colorBond from "../assets/svg/colorBond.svg"
 import road from "../assets/svg/road.svg"
 export default function iAmDeveloper() {
     return (
-        <div className="w-full px-4 flex flex-col 2xl:gap-5 2xl:w-[1490px] 2xl:mx-auto lg:items-center lg:flex-row mb-80 lg:flex">
+        <div className="w-full px-4 flex flex-col 2xl:gap-5 2xl:w-[1490px] 2xl:mx-auto lg:items-center lg:flex-row lg:mb-96 mb-28 lg:flex">
 
             <div className="w-full lg:w-[500px] xl:h-[380px] xl:w-[700px] relative flex justify-end">
                 <div className="hidden lg:block">

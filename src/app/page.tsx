@@ -3,6 +3,7 @@ import backImage from "./assets/images/heroBg.jpg"; // Your image import
 import Hero from "./components/hero";
 import Excellence from "./components/excellence"
 import IAmDeveloper from "./components/iAmDeveloper"
+import Projects from "./components/projects"
 export default function Page() {
   return (
     <div className="min-h-screen bg-[#252439] py-1 w-full">
@@ -15,6 +16,7 @@ export default function Page() {
       </div>
       <Excellence />
       <IAmDeveloper/>
+      <Projects/>
     </div>
   );
 }
