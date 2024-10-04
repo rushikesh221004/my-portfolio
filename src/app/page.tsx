@@ -4,6 +4,7 @@ import Hero from "./components/hero";
 import Excellence from "./components/excellence"
 import IAmDeveloper from "./components/iAmDeveloper"
 import Projects from "./components/projects"
+import AmazingWorks from "./components/amazingWorks"
 export default function Page() {
   return (
     <div className="min-h-screen bg-[#252439] py-1 w-full">
@@ -17,6 +18,7 @@ export default function Page() {
       <Excellence />
       <IAmDeveloper/>
       <Projects/>
+      <AmazingWorks/>
     </div>
   );
 }
